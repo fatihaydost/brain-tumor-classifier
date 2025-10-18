@@ -14,8 +14,8 @@ Model, 10 epoch boyunca eğitildiğinde doğruluk oranı yaklaşık %97.4, macro
 > Bu proje eğitim/araştırma/portföy amaçlıdır; çıktılar tıbbi kullanım için uygun değildir.
 
 ## Veri Seti
-Kaggle: **Brain Tumor MRI Dataset — Masoud Nickparvar**  
-<https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset>
+Kaggle: **Brain Tumor Dataset — Ishans24**  
+<https://www.kaggle.com/datasets/ishans24/brain-tumor-dataset>
 
 ## Kurulum
 Önerilen Python: **3.11** veya **3.12**
