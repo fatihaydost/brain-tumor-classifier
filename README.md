@@ -3,6 +3,14 @@
 MRI görüntülerinden **Glioma**, **Meningioma**, **Pituilary**, **Tümör yok** sınıflarını ayırt eden görüntü sınıflandırma projesi.  
 Model: ImageNet ön-eğitimli **EfficientNet-B0** (transfer learning) · Arayüz: **Streamlit** · Görselleştirme: **Grad-CAM**
 
+#📈 Model Performansı
+
+Model, 10 epoch boyunca eğitildiğinde doğruluk oranı yaklaşık %97.4, macro-F1 skoru ise 0.96 seviyesine ulaşmıştır. Veri dengesizliğini azaltmak için sınıf ağırlıkları kullanıldığında özellikle “No Tumor” ve “Meningioma” sınıflarında hatalar belirgin şekilde azalmıştır. Modelin performansı kullanılan epoch sayısı, veri artırma çeşitliliği ve çözünürlük parametrelerine bağlı olarak değişebilir.
+
+
+<img width="718" height="820" alt="resim" src="https://github.com/user-attachments/assets/fd24588b-c03c-445e-a512-ddffdf2bdc10" />
+
+
 > Bu proje eğitim/araştırma/portföy amaçlıdır; çıktılar tıbbi kullanım için uygun değildir.
 
 ## Veri Seti
